@@ -1,0 +1,54 @@
+let values=[];
+
+values['en']=[];
+values['en']['oracle']=['NO!','NO','NO?','YES?','YES','YES!'];
+values['en']['difficulty']=[1,2,3,4,5,6,6,7,8,9,10];
+values['en']['d4']=[1,2,3,4];
+values['en']['d6']=[1,2,3,4,5,6];
+values['en']['d8']=[1,2,3,4,5,6,7,8];
+values['en']['d10']=[1,2,3,4,5,6,7,8,9,10];
+values['en']['d12']=[1,2,3,4,5,6,7,8,9,10,11,12];
+values['en']['d20']=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+values['en']['card']=['10-c.svg','2-c.svg','3-c.svg','4-c.svg','5-c.svg','6-c.svg','7-c.svg','8-c.svg','9-c.svg','a-c.svg','j-c.svg','k-c.svg','q-c.svg','10-d.svg','2-d.svg','3-d.svg','4-d.svg','5-d.svg','6-d.svg','7-d.svg','8-d.svg','9-d.svg','a-d.svg','j-d.svg','k-d.svg','q-d.svg','10-h.svg','2-h.svg','3-h.svg','4-h.svg','5-h.svg','6-h.svg','7-h.svg','8-h.svg','9-h.svg','a-h.svg','j-h.svg','k-h.svg','q-h.svg','10-s.svg','2-s.svg','3-s.svg','4-s.svg','5-s.svg','6-s.svg','7-s.svg','8-s.svg','9-s.svg','a-s.svg','j-s.svg','k-s.svg','q-s.svg'];
+values['en']['room']=['5 x 1','5 x 1','5 x 2','5 x 3','5 x 4','5 x 4','5 x 5','5 x 5','1 x 5','2 x 5','3 x 5','4 x 5','4 x 5','4 x 1','4 x 2','4 x 3','4 x 3','4 x 4','4 x 4','1 x 4','2 x 4','3 x 4','3 x 4','3 x 1','3 x 2','3 x 2','3 x 3','3 x 3','1 x 3','2 x 3','2 x 3','2 x 1','2 x 2','2 x 2','1 x 2','1 x 1'];
+values['en']['exit']=['4 Unlock','3 Unlock','2 Unlock','1 Unlock','4 Lock','3 Lock','2 Lock','1 Lock','4 Open','3 Open','2 Open','1 Open','3 Open 1 lock','2 Open 1 lock','2 Open 2 lock','1 Open 1 lock','3 Unlock 1 lock','2 Unlock 1 lock','2 Unlock 2 lock','1 Unlock 1 lock','3 Unlock 1 open','2 Unlock 1 open','2 Unlock 2 open','1 Unlock 1 open','1 Hatch','3 Open 1 hatch','2 Open 1 hatch','1 Open 1 hatch','3 Unlock 1 hatch','2 Unlock 1 hatch','1 Unlock 1 hatch','3 Unlock 1 hatch','2 Unlock 1 hatch','1 Unlock 1 hatch','No doors','No doors'];
+values['en']['content']=['Encounter','Encounter','Encounter','Encounter','Encounter','2 Encounter','2 Encounter','2 Encounter','Loot','Loot','Trap','Trap','Trap','NPC','NPC','NPC','Empty','Empty','Empty','Immersion','Challenge','Anomaly','Melted core','Command room','Storage room','Garden','Prison','Kitchen','Bathroom','Utility room','Baracks','Dormitory','Stairs up','Stairs down','Abyss','Reroll twice'];
+values['en']['condition']=['Cold','Hot','Dark','Light','Old','New','Colorful','Colorless','In ruin','Ruined','New','Bloody','Clean','Dirty','Flooded','Upside-down','Dusty','On fire','Holes in walls','Hole on floor','Hole on ceiling','Made of meat','Plated in gold','Plated in silver','Plated in skin','Burned','Painted','Melting','Melted','Without cailing','Without floor','Frozen','Pitch black','Smaller inside','Bigger inside','Reroll twice'];
+values['en']['name']=['Jack','John','Harry','Mason','Robert','Jacob','William','Joe','Ethan','David','George','Richard','Oscar','Alexander','James','Charles','Daniel','Thomas','Mary','Samantha','Olivia','Patricia','Sophia','Emily','Isabella','Linda','Ava','Megan','Barbara','Susan','Jessica','Abigail','Lily','Madison','Sophie','Sara'];
+values['en']['item']=['Tool','Key','Food','Coins','Document','Helmet','Jewellery','Ring','Axe','Hammer','Halberd','Spear','Sword','Dagger','Staff','Wand','Bow','Pants','Gloves','Boots','Belt','Body armor','Shield','Pistol','Rifle','Cannon','Shotgun','Battery','Bones','Hair','Book','Monitor','Keyboard','USB Drive','Granade','Reroll twice'];
+values['en']['adjective']=['Good','Bad','Neutral','Big','Small','Tall','Short','Colorful','Colorless','Valuable','Cheap','Old','New','Young','Heavy','Light','Loud','Quiet','Stinky','Pleasant','Irregular','Regular','Visible','Invisible','Sweet','Sour','Salty','Bland','Mid','Far','Near','Deep','Shallow','Dark','Bright','Reroll twice'];
+values['en']['color']=['Black','Red','Green','Yellow','Blue','Pink','Cyan','White','Gray','Dark gray','Light gray','Dark red','Light red','Dark green','Light green','Dark yellow','Light yellow','Dark blue','Light blue','Dark pink','Light pink','Dark cyan','Light cyan','Transparent','Colorless','Rainbow','Brown','Light brown','Dark brown','Gold','Purple','Dark purple','Light purple','Dark gold','Light gold','Reroll twice'];
+values['en']['npc']=['Alchemist','Cook','Beggar','Blacksmith','Bowyer','Brewer','Carpenter','Slave','Guard','Executioner','Fisherman','Gem-Cutter','Goldsmith','Herald','Herbalist','Innkeeper','Trader','Mercenary','Miner','Pirate','Sailor','Painter','Sage','Scribe','Fixer','Butcher','Spy','Trapper','Driver','Programmer','King','Leader','Commander','Tracker','Ranger','Reroll twice'];
+values['en']['encounter']=['Vampire','Warewolf','Phoenix','Lich','Zombie','Skeleton','Ghost','Goblin','Ork','Troll','Dragon','Demon','Succubus','Elf','Dwarf','Man','Gang','Bot','Mech','Alien','Psyker','Wurm','Chimera','Rogue AI','Mutant','Bear','Bull','Dog','Rat','Snake','Cat','Horse','Lion','Insect','Biomass','Giant (reroll)'];
+values['en']['combat']=['Attack','Attack','Slash','Slash','Crush','Crush','Pierce','Pierce','Defend','Defend','Parry','Parry','Dodge','Dodge','Retreat','Stall','Dash','Disengage','Help','Cast spell','Use ability','Use Object','Throw','Move','Run towards','Run away','Flank','Grapple','Disarm','Push','Trip','Charge','Total Defence','Draw weapon','Counter','Intimidate'];
+values['en']['place']=['Home','Scool','Mine','Hospital','Hotel','Cabin','Port','Disco','Castle','Tower','Dungeon','Airport','Prison','Forest','Desert','Island','Sea','Mountain','Swamp','Plain','Bomb site','Crater','Volcano','Sky','Factory','Shop','Cave','Villa','Server','Network','Mind','Space','Ruined (reroll)','Flying (reroll)','Underground (reroll)','Underwater (reroll)'];
+values['en']['quest']=['Save X','Destroy X','Seven woman X','A mad priest X','Seven sign reveal','In a dungeon X','Protect X','Escort X','In 13 days, X','Find X','Steal X','Flee from X','A rich merchant, wants X','A body has been found','The dead have risen','A cult, is performing a ritual','He needs 99 sacrifices','The city goes mad at night','X disappears at midday','Whispers from the mines tell a story','The autorities are after you','A new threat on the net','The planet is dying','Three brides got married in black','You owe money to the wrong person','They are paying too much for X','They\'re coming out of the goddamn walls!','Tutti hanno lo stesso incubo','There has been an impact nearby','The detonation is imminent','Your universe will collapse','From another dimension, X','An abyss emerged, tearing open the earth','Something went wrong, very wrong!','You are not coming back from here','Reroll twice'];
+
+values['it']=[];
+values['it']['oracle']=['NO!','NO','NO?','SI?','SI','SI!'];
+values['it']['difficulty']=[1,2,3,4,5,6,6,7,8,9,10];
+values['it']['d4']=[1,2,3,4];
+values['it']['d6']=[1,2,3,4,5,6];
+values['it']['d8']=[1,2,3,4,5,6,7,8];
+values['it']['d10']=[1,2,3,4,5,6,7,8,9,10];
+values['it']['d12']=[1,2,3,4,5,6,7,8,9,10,11,12];
+values['it']['d20']=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+values['it']['card']=['10-c.svg','2-c.svg','3-c.svg','4-c.svg','5-c.svg','6-c.svg','7-c.svg','8-c.svg','9-c.svg','a-c.svg','j-c.svg','k-c.svg','q-c.svg','10-d.svg','2-d.svg','3-d.svg','4-d.svg','5-d.svg','6-d.svg','7-d.svg','8-d.svg','9-d.svg','a-d.svg','j-d.svg','k-d.svg','q-d.svg','10-h.svg','2-h.svg','3-h.svg','4-h.svg','5-h.svg','6-h.svg','7-h.svg','8-h.svg','9-h.svg','a-h.svg','j-h.svg','k-h.svg','q-h.svg','10-s.svg','2-s.svg','3-s.svg','4-s.svg','5-s.svg','6-s.svg','7-s.svg','8-s.svg','9-s.svg','a-s.svg','j-s.svg','k-s.svg','q-s.svg'];
+values['it']['room']=['5 x 1','5 x 2','5 x 3','5 x 4','5 x 5','4 x 1','4 x 2','4 x 3','4 x 4','3 x 1','3 x 2','3 x 3','2 x 1','2 x 2','1 x 1'];
+values['it']['exit']=['3 Porte','2 Porte','1 Porta','Nessuna','Porta chiusa'];
+values['it']['content']=[];
+values['it']['condition']=[];
+values['it']['name']=[];
+values['it']['item']=[];
+values['it']['adjective']=[];
+values['it']['color']=[];
+values['it']['npc']=[];
+values['it']['encounter']=[];
+values['it']['combat']=[];
+values['it']['place']=[];
+values['it']['quest']=[];
+
+console.log(values['en']);
+
+let userLang=(navigator.language||navigator.userLanguage).slice(0, 2);
+if(values[userLang]===undefined)userLang='en';
