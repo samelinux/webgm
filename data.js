@@ -48,5 +48,17 @@ values['it']['combat']=['Attacco','Attacco','Taglio','Taglio','Schiacciamento','
 values['it']['place']=['Casa','Scuola','Miniera','Ospedale','Hotel','Cabina','Porto','Discoteca','Castello','Torre','Segreta','Aeroporto','Prigione','Foresta','Deserto','Isola','Mare','Montagna','Palude','Pianura','Sito bombardato','Cratere','Vulcano','Cielo','Fabbrica','Negozio','Grotta','Villa','Server','Rete','Mente','Spazio','Rovinato (rilancia)','Volante (rilancia)','Sotterraneo (rilancia)','Sott\'acqua (rilancia)'];
 values['it']['quest']=['Salva X','Distruggi X','Sette donne X','Un prete pazzo X','Sette segni rivelati','In un dungeon X','Proteggi X','Scorta X','Tra 13 giorni, X','Trova X','Ruba X','Fuggi da X','Un ricco mercante vuole X','È stato trovato un corpo','I morti sono risorti','Una setta sta eseguendo un rituale','Ha bisogno di 99 sacrifici','La città impazzisce di notte','X scompare a mezzogiorno','I sussurri dalle miniere raccontano una storia','Le autorità ti danno la caccia','Una nuova minaccia in rete','Il pianeta sta morendo','Tre spose si sono sposate in nero','Devi dei soldi alla persona sbagliata','Stanno pagando troppo per X','Stanno uscendo da le maledette mura!','Tutti hanno lo stesso incubo','C\'è stato un impatto nelle vicinanze','La detonazione è imminente','Il tuo universo collasserà','Da un\'altra dimensione, X','È emerso un abisso, squarciando la terra','Qualcosa è andato storto, molto storto!','Non tornerai da qui','Rilancia due volte'];
 
-let userLang=(navigator.language||navigator.userLanguage).slice(0, 2);
+let userLang=null;
+window.location.search.substr(1).split('&').forEach(function (param)
+	{
+		let tmp=param.split('=');
+		if(tmp[0]=='l' || tmp[0]=='lang')
+		{
+			userLang=tmp[1];
+		}
+	});
+if(userLang==null)
+{
+	userLang=(navigator.language||navigator.userLanguage).slice(0, 2);
+}
 if(values[userLang]===undefined)userLang='en';
