@@ -61,7 +61,7 @@
 		let tmp;
 		let langValues=values[userLang];
 		let oracleEven=randomIn(langValues['d6'])-1;
-		let oracleBad=Math.max(randomIn(langValues['d6'])-2,1);
+		let oracleBad=Math.max(randomIn(langValues['d6'])-2,0);
 		let oracleGood=Math.min(randomIn(langValues['d6']),5);
 		console.log(oracleBad+' '+oracleEven+' '+oracleGood);
 		setValue('oracleBadValue',langValues['oracle'][oracleBad]);
